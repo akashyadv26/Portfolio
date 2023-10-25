@@ -13,7 +13,7 @@ function toggleMenu() {
     delay:400
 });
 
-scrollReveal().reveal(' .title',{delay:300,origin:"left"});
+ScrollReveal().reveal(' .title',{delay:300,origin:"left"});
 ScrollReveal().reveal(' .section__text__p2', { delay: 300,origin:"right" });
 
 // ScrollReveal().reveal('#profile, .section__pic-container', { delay: 300,origin:"bottom" });
